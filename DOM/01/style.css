@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(41, 190, 108);
+  text-align: center;
+  box-sizing: border-box;
+}
+
+body {}
+
+.container {
+  margin: 10px;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+.modal-header {
+  font-size: 50px;
+  color: rgb(251, 250, 247);
+  text-decoration: underline;
+  text-shadow: -2px 2px silver;
+}
+
+.show-modal {
+  margin: 50px 10px;
+}
+
+button {
+  position: relative;
+  margin: 12px;
+  /* padding: 10px; */
+  background-color: white;
+  color: black;
+  border: 1px transparent;
+  border-radius: 24px;
+  width: 180px;
+  height: 50px;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+  z-index: 10;
+}
+
+button:hover {
+  width: 182px;
+  outline: 2px solid purple;
+}
+
+.container {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.blur {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.overlay {
+  position: absolute;
+  /* border: 10px solid grey; */
+  width: 100%;
+  height: 100%;
+  /* top: 50px;
+  left: 50px;
+  bottom: 50px;
+  right: 50px; */
+  background: rgb(13, 33, 13);
+  z-index: 15;
+  opacity: 0.5;
+
+}
+
+.modal {
+  position: relative;
+  font-family: sans-serif;
+  background-color: white;
+  color: black;
+  margin: 0px auto;
+  padding: 10px 10px 0 30px;
+  border-radius: 5px;
+  width: 70vw;
+  box-shadow: -5px 5px 2px rgb(218, 218, 218);
+  box-shadow: darkorchid;
+  z-index: 999;
+}
+
+.close-modal {
+  width: 4rem;
+  font-size: 29px;
+  background-color: white;
+  position: sticky;
+  left: 100rem;
+
+}
+
+.close-modal:hover {
+  width: 4rem;
+  font-size: 32px;
+  border: 3px solid silver;
+  border-radius: 50%;
+  outline: 2px solid white;
+}
+
+.modal h1 {
+  padding: 0 0 20px 20px;
+}
+
+.modal h1,
+p {
+  margin: 0 10px;
+  text-align: left;
+  background-color: white;
+}
+
+p {
+  font-size: 20px;
+  padding: 0 0 50px 10px;
+}

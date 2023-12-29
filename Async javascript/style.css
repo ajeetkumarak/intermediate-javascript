@@ -1,0 +1,169 @@
+body{
+    background-color: rgb(205, 229, 227);
+    color: rgb(15, 14, 14);
+    font-family: sans-serif;
+    text-align: center;
+}
+nav{
+    margin: 1rem;
+    display: flex;
+    justify-content: end;
+    color: rgb(19, 16, 16);
+}
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
+    margin: 1px 6px;
+    font-size: 19px;
+}
+.search{
+    background-color: rgb(189, 206, 212);
+    border-radius: 35px;
+    border: 2px solid rgb(114, 114, 114);
+    height: 2rem;
+    width: 15rem;
+    padding: 1px 15px;
+    cursor: pointer;
+    font-size: 22px;
+    color: white;
+
+}
+.submit{
+    border: 1px solid gray;
+    border-radius: 50%;
+    position: relative;
+    left: -2.7rem;
+    color: rgb(26, 25, 25);
+    padding: 9px 9px;
+    border-left: 3px solid silver;
+    background-color: rgb(207, 245, 207);
+    font-weight: bold;
+    font-size: 19px;
+    cursor: pointer;
+}
+.search:hover{
+    background-color: rgb(119, 133, 128);
+}
+.countries--container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+
+
+}
+
+/* .countries, */
+ .country{
+    color: black;
+    margin: 5px 15px;
+    background-color: rgb(232, 228, 228);
+    box-sizing: border-box;
+    text-align: center;
+    width: 24rem;
+    padding: 1rem;
+    border: 4px solid rgb(143, 190, 201);
+    border-radius: 8px;
+}
+
+img{
+    /* position: relative;
+    right: 14px; */
+    border-radius: 5px;
+    box-shadow: -3px 3px gray;
+}
+
+.country__name{
+    color: rgb(83, 83, 83);
+    padding: 0 3rem;
+    font-size: 40px;
+    text-align: left;
+}
+.country__region{
+    color: gray;
+    margin-left: 50px;
+    margin-top: -35px;
+    padding: -10px 11rem;
+    text-align: left;
+}
+
+.country__row{
+    margin: 0 49px 15px;
+    text-align: left;
+}
+ span{
+    padding: 15px 14px 0 1px;
+}
+
+ .neighbour{
+    position: relative;
+    right: 111%;
+    background-color: rgb(255, 211, 144);
+    border: rgb(255, 211, 144);
+    color: black;
+    box-sizing: border-box;
+    text-align: center; 
+    box-sizing: border-box;
+    width: 17rem;
+    height: 26rem;
+}
+
+.neighbour img {
+    position: relative;
+    right: 14px;
+    top: -4.4rem;
+    width: 17rem;
+    border-radius: 5px;
+    box-shadow: -3px 3px gray;
+}
+
+.neighbour .country__name {
+    position: relative;
+    top: -65px;
+    color: rgb(83, 83, 83);
+    padding: 0 .5rem;
+    font-size: 30px;
+    text-align: left;
+}
+.para{
+    color: rgb(156, 156, 156);
+    position: relative;
+    top: -4rem;
+}
+
+.neighbour .country__region {
+    color: gray;
+    margin-left: 20px;
+    margin-top: -85px;
+    padding: -18px 8rem;
+    text-align: left;
+}
+
+.neighbour .country__row {
+    margin: 0 35px 15px;
+    text-align: left;
+}
+
+.btn-country{
+    color: white;
+    background-color: orangered;
+    padding: 8px 18px;
+    font-family: sans-serif;
+    border: 4px solid rgba(250, 75, 12, 0.71);
+    border-radius: 5px;
+    font-size: 1.3rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto 40%;
+
+}
+
+.image-front{
+    /* width: 80vw; */
+    height: 800px;
+    margin: 1rem;
+}

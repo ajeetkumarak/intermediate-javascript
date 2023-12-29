@@ -1,0 +1,13 @@
+body{
+    height: 100vh;
+    background: linear-gradient(to top left, #28b487, #7dd56f);
+}
+h1{
+    font-size: 58px;
+    /* background-color: rgb(31, 101, 31); */
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 15rem 1px 1px 1px;
+    padding: 30px;
+}

@@ -1,0 +1,19 @@
+{
+  "name": "modern-js-development",
+  "version": "1.0.0",
+  "main": "script.js",
+  "description": "\"npm init in vs code\"",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "\"Aj\"",
+  "license": "ISC",
+  "dependencies": {
+    "leaflet": "^1.9.4",
+    "lodash-es": "^4.17.21"
+  },
+  "devDependencies": {
+    "parcel": "^2.10.2"
+  }
+}
